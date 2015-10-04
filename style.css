@@ -1,0 +1,41 @@
+style.css
+  <style>
+    header {
+      text-align: center;
+      background: whitesmoke;
+      color: black;
+      font-family: helvetica;
+    }
+    a {
+      color: black;
+    }
+    /*
+
+    h1 {
+      font-size: 70px;
+      font-weight: bold;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 1px solid black;
+      border-radius: 500px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.1);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;*/
+      margin: 0 auto;
+    }
+    body {
+    	background: whitesmoke;
+    }
+}
+
+  </style>
