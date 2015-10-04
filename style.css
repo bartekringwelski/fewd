@@ -1,5 +1,3 @@
-style.css
-  <style>
     header {
       text-align: center;
       background: whitesmoke;
@@ -9,7 +7,6 @@ style.css
     a {
       color: black;
     }
-    /*
 
     h1 {
       font-size: 70px;
@@ -37,5 +34,3 @@ style.css
     	background: whitesmoke;
     }
 }
-
-  </style>
