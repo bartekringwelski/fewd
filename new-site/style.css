@@ -6,3 +6,32 @@
   width: 45px;
   height: 45px;
 }
+
+
+#bannerPic {
+	background-image: url("felt.jpg");
+	height:500px;
+} 
+
+a {
+	font-size: 1.25em;
+	font-weight: bolder;
+	color: green;
+}
+
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.3);
+    border:none;
+}
+
+
+
+.navbar .nav > li > a {
+    float: none;
+    color: #ECECEC;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: white;
+}
