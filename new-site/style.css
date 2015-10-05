@@ -13,19 +13,10 @@
 	height:500px;
 } 
 
-a {
-	font-size: 1.25em;
-	font-weight: bolder;
-	color: green;
-}
-
-
 .navbar-inverse {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     border:none;
 }
-
-
 
 .navbar .nav > li > a {
     float: none;
@@ -35,3 +26,4 @@ a {
     float: none;
     color: white;
 }
+
