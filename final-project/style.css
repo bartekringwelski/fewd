@@ -1,0 +1,75 @@
+
+#work-100px {
+  max-height: 100px;
+  max-width:100px;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+.hang-glide-background {
+  background-color: #f7f9f7;
+}
+
+#splash-page {
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 400px;
+  background-image: url(assets/felt-blur.jpg);
+  background-size: 100%;
+  color: white;
+  }
+
+  #work {
+  height: 900px;
+  background-size: 100%;
+  margin-top:-60px;
+  }
+
+
+
+.miniPic {
+  margin-top: -12px;
+  margin-left: -10px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+
+#bannerPic {
+	background-image: url("felt.jpg");
+background-size: 25%; 
+  
+  } 
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+    border:none;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    color: #ECECEC;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: white;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+
+
+.bgimage {
+
+}
+
+.bgimage-inside {
+  padding-top:37.36%;
+}
+

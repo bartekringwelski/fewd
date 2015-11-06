@@ -13,7 +13,7 @@
       font-weight: bold;
     }
     img {
-      margin: 40px 0px 0px 0px;
+      margin: 80px 0px 0px 0px;
       border: 1px solid black;
       border-radius: 500px;
     }
@@ -31,6 +31,5 @@
       margin: 0 auto;
     }
     body {
-    	background: whitesmoke;
-    }
+      }
 }
