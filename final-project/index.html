@@ -1,294 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bartek Ringwelski</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-<!-- Custom themes to override bootstap -->
-<link rel="stylesheet" href="style.css">
-
-<!-- Loading jQuery -->
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-<body>
-
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+   <head>
+      <title>Bartek Ringwelski</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+   <!-- Custom themes to override bootstap -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Loading jQuery -->
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
             <img class="miniPic" src="assets/br-small.jpg">
-          </a>
-               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">work</a></li>              
-                  <li><a href="#">family</a></li>
-                  <li><a href="#">biking</a></li>
-                  <li><a href="#">gliding</a></li>
-                   <li><a href="#">contact</a></li>
-              </ul>
+            </a>
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="#section1">work experience</a></li>
+               <li><a href="#section2">hang gliding</a></li>
+               <li><a href="#section3">biking</a></li>
+               <li><a href="#section4">family</a></li>
+               <li><a href="#section5">contact</a></li>
+            </ul>
+         </div>
+         </div>
+      </nav>
+      <!--Div for splash page -->
+      <div id="splash-page" class="jumbotron">
+         <div class="container">
+            <h1> BARTEK </h1>
+            <h3>I'm 33, married, live in San Francisco, work in FinTech, and other stuff too</h3>
+            <br>
+            <div class ="fus-btns">
+               <a href="www.cnn.com" class="btn btn-primary">about me</a>
             </div>
+         </div>
       </div>
-  </nav>
-
-
-<!--Div for splash page -->
-    <div id="splash-page" class="jumbotron"> 
-      <div class="container"> 
-        <h1> BARTEK </h1>
-        <h3>I'm 33, married, live in San Francisco, work in FinTech, and am always learning</h3>
-      <div class ="fus-btns">
-        <a href="www.cnn.com" class="btn btn-primary">about me</a>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
 <!--Div for work page -->
-<div class="container"
+      <div class="container" id="section1">
       <div class="row">
-        <div class="col-md-6">
+         <div class="col-md-6">
             <h1> work experience</h1>
-              <div class="row">
-                <div class="col-sm-4">
+            <div class="row">
+               <div class="col-sm-4">
                   <img src="assets/product.png" id= "work-100px">
                   <p>founder & product</p>
-
-                </div>
-                
-                <div class="col-sm-4">
+               </div>
+               <div class="col-sm-4">
                   <img src="assets/stock.png" id= "work-100px">
                   <p>vc & investing</p>
-                </div>
-
-                <div class="col-sm-4">
+               </div>
+               <div class="col-sm-4">
                   <img src="assets/ops.png" id= "work-100px">
                   <p> biz ops & strategy</p>
-                </div>
-              </div>
-              <div style="margin:5px"></div>
-              <div class="row">
-                <div class="col-sm-4">
+               </div>
+            </div>
+            <div style="margin:5px"></div>
+            <div class="row">
+               <div class="col-sm-4">
                   <img src="assets/usd.png" id= "work-100px">
                   <p>fiance</p>
-                </div>
-                
-                <div class="col-sm-4">
+               </div>
+               <div class="col-sm-4">
                   <img src="assets/Wharton_shield.png" id = "work-100px">
                   <p> wharton, mba</p>
-                </div>
-
-                <div class="col-sm-4">
+               </div>
+               <div class="col-sm-4">
                   <img src="assets/cu-b.jpg" id = "work-100px">
                   <p>columbia, ba</p>
-                </div>
-              </div>
+               </div>
+            </div>
+         </div>
 
-        </div>
-       
-        <div class="col-md-6">        
-           <h1>vc & investments</h1>
-           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.</p>
+         <div class="col-md-6">
+            <h1>vc & investments</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
-          </p>
-
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
-          </p>
-        </div>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
+         </div>
       </div>
+      </div>
+<!--- div for hanglding page -->
+      <div class="hang-glide-background" id="section2">
+         <br>
+         <div class="container">
+            <h1> hang gliding</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
+            <div class="row">
+               <!--ROW 1 -->
+               <!--vid 1, row 1-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 1</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 2, row 1-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 2</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/k0JtTx18dI0?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen> </iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 3, row 1-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 3</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/N-szHjzagck?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 4, row 1-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 4</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/x3SODP_1Jqc?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+            </div>
+            <!-- </ROW 1> -->
+            <!-- <ROW 2> -->
+            <div class="row">
+               <!--vid 5, row 2-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 5</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/VK_h8uH2GZI?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 6, row 2-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 6</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 7, row 2-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 7</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/6S5XKu7_Fyc?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 8, row 2-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 8</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/dnd_YaYfc00?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>        
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+            </div>
+            <!-- <ROW 3> -->
+            <div class="row">
+               <!--vid 9, row 3-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 9</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/NrKtyx6f9vY?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>  
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 10, row 3-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 10</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 11, row 3-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 11</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/LTzOSUW2les?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+               <!--vid 12, row 3-->
+               <div class="col-md-3 margin">
+                  <label>Lesson 12</label>
+                  <iframe width="270" height="151" src="https://www.youtube.com/embed/AXivomm49bI?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>       
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+<!--Div for bike page -->
+     <div class="bike-background" id="section3">
+         <br>
+         <div class="container">
+            <h1> bikes</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
 
+           <div class="row">
+              <!--column 1-->
+                <div class="col-md-4 margin">
+                  <center><h2> Mountain </h2></center>
+                  <img src="assets/scalpel-2.jpg" class="bike-pics">
+        
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+                 </div>
+                        
+              <!--column 2-->
+                <div class="col-md-4 margin">
+                  <center><h2> Road </h2></center>
+                  <img src="assets/felt-clean.jpg" class="bike-pics">
 
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+                 </div>
+
+               <!--column 2-->
+                <div class="col-md-4 margin">
+                  <center><h2> Commute </h2></center>
+                  <img src="assets/bad-boy-2.jpeg" class="bike-pics">
+
+                  <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
+
+                  <ul>-Recent Ride </ul>
+                  <ul>-Recend Ride 2</ul>
+                 </div>                       
+          </div>
+      </div>
+     </div>
+
+<!--end bike div-->
 
 <!--- div for hanglding page -->
+      <div class="hang-glide-background" id="section4">
+         <br>
+         <div class="container">
+            <h1> family</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
+            </p>
+            <div class="row">
+               <!--ROW 1 -->
+               <!--vid 1, row 1-->
+               <div class="col-md-4 family">
+                  <label>Marija, Kachunga & Me</label>
+                  <img src = "assets/ania,ben,jake.png">
+               </div>
 
-<div class="hang-glide-background">
-<br>
-<div class="container">
-    <h1> hang gliding</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam vestibulum lectus et venenatis lacinia. Donec purus enim, ultricies eu venenatis id, tincidunt sit amet ipsum. Morbi finibus ligula vel aliquam convallis. Vivamus vel pellentesque ligula, sed condimentum massa. Integer malesuada ligula quis lacus faucibus tincidunt. Suspendisse ornare non mi vel luctus. Donec nisl ante, egestas eget mattis ut, hendrerit at ligula.
-    </p>
-      <div class="row">
+               <!--
 
-      <!--ROW 1 -->
-
-      <!--vid 1, row 1-->
-        <div class="col-md-3 margin">
-                <label>Lesson 1</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-
-        </div>
-      <!--vid 2, row 1-->
-
-
-        <div class="col-md-3 margin">
-                <label>Lesson 2</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/k0JtTx18dI0?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen> </iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-
-      <!--vid 3, row 1-->
-        <div class="col-md-3 margin">
-                <label>Lesson 3</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/N-szHjzagck?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-      <!--vid 4, row 1-->
-        <div class="col-md-3 margin">
-                <label>Lesson 4</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/x3SODP_1Jqc?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-      </div>
-
-        <!-- </ROW 1> -->
-
-        <!-- <ROW 2> -->
-  <div class="row">
-
-      <!--vid 5, row 2-->
-        <div class="col-md-3 margin">
-                <label>Lesson 5</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/VK_h8uH2GZI?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-      <!--vid 6, row 2-->
-
-        <div class="col-md-3 margin">
-                <label>Lesson 6</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-
-      <!--vid 7, row 2-->
-        <div class="col-md-3 margin">
-                <label>Lesson 7</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/6S5XKu7_Fyc?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-      <!--vid 8, row 2-->
-        <div class="col-md-3 margin">
-        <label>Lesson 8</label>
-              <iframe width="270" height="151" src="https://www.youtube.com/embed/dnd_YaYfc00?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>        
-              <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-
-        </div>
-
-</div>
-        <!-- <ROW 3> -->
-  <div class="row">
-
-      <!--vid 9, row 3-->
-        <div class="col-md-3 margin">
-                <label>Lesson 9</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/NrKtyx6f9vY?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>  
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-
-        </div>
-      <!--vid 10, row 3-->
-        <div class="col-md-3 margin">
-                <label>Lesson 10</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/u2l-pMdnS_A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-
-        </div>
-
-      <!--vid 11, row 3-->
-        <div class="col-md-3 margin">
-                <label>Lesson 11</label>
-                <iframe width="270" height="151" src="https://www.youtube.com/embed/LTzOSUW2les?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>
-        </div>
-      <!--vid 12, row 3-->
-        <div class="col-md-3 margin">
-               <label>Lesson 12</label>
-               <iframe width="270" height="151" src="https://www.youtube.com/embed/AXivomm49bI?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>       <p> TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit leo et risus accumsan, malesuada elementum leo eleifend. Nullam  </p>       
-        </div>
-
-</div>
-
-</div>
-
-</div>
+               <div class="col-md-4 family-pics">
+                 <label>Marija, Kachunga & Me</label>
+                 <img src = "assets/ania,ben,jake.png">
+                </div>
 
 
+               <div class="col-md-4 family-pics">
+                 <label>Marija, Kachunga & Me</label>
+                 <img src = "assets/ania,ben,jake.png">
+               </div>
 
-</body>
+               -->
+           </div>
 
+<!--begin footer-->
+    <div class="footer-div"></div>
+   </body>
 </html>
 
-
-
-
-
-<!--
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item">
-          <img class="first-slide" src="assets/felt.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="assets/chungie.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item active">
-          <img class="third-slide" src="assets/work.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    
 
 

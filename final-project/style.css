@@ -11,13 +11,20 @@
   background-color: #f7f9f7;
 }
 
+
+
+.footer-div {
+  height:70px;
+  background-color: gray;
+}
+
 #splash-page {
   text-align: center;
   display:flex;
   justify-content:center;
   align-items: center;
-  height: 400px;
-  background-image: url(assets/felt-blur.jpg);
+  height: 700px;
+  background-image: url(assets/bike-backround-2.jpg);
   background-size: 100%;
   color: white;
   }
@@ -73,3 +80,35 @@ label {
   padding-top:37.36%;
 }
 
+
+.bike-pics {
+  max-height: 170px; 
+  max-width: 300px;
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.family {
+  max-height: 77px;
+  max-width: 77px;
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+nav .active {
+  font-weight: bold;
+  background: green;
+}
+
+nav {
+  background-color: white;
+}
