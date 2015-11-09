@@ -1,8 +1,41 @@
-
-#work-100px {
+#work-100px-product {
   max-height: 100px;
   max-width:100px;
 }
+
+#work-100px-vc {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-biz-ops {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-finance {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-mba {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-ba {
+  max-height: 100px;
+  max-width:100px;
+}
+
+
+
+
+
+
+
+
+
 
 .margin {
   margin-bottom: 10px;
@@ -12,11 +45,18 @@
 }
 
 
-
 .footer-div {
-  height:70px;
   background-color: gray;
+  color: white;
+  padding: 10px 0px 0px 0px;
+  }
+
+.footer-div li  {
+    display:inline;
+    color:white;
+    font-size: 1.5em;
 }
+
 
 #splash-page {
   text-align: center;
@@ -46,11 +86,6 @@
 }
 
 
-#bannerPic {
-	background-image: url("felt.jpg");
-background-size: 25%; 
-  
-  } 
 
 .navbar-inverse {
     background: rgba(0, 0, 0, 0.5);
@@ -90,19 +125,18 @@ label {
   margin-right: auto;
 }
 
-
-.family {
-  max-height: 77px;
-  max-width: 77px;
-  border-radius: 2%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.family-background {
+ background-color: #F1F1F1;
 }
 
+.family-background-image {
+   background-image: url("assets/map.png");
+   opacity: .9;  
+}
 
-
-
+/*div {
+  border: 1px solid;
+}*/
 
 nav .active {
   font-weight: bold;
