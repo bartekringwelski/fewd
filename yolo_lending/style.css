@@ -1,41 +1,30 @@
-#work-100px-product {
-  max-height: 100px;
-  max-width:100px;
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+    border:none;
 }
 
-#work-100px-vc {
-  max-height: 100px;
-  max-width:100px;
+.navbar .nav > li > a {
+    float: none;
+    color: #ECECEC;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: white;
 }
 
-#work-100px-biz-ops {
-  max-height: 100px;
-  max-width:100px;
+nav .active {
+  font-weight: bold;
+  background: green;
 }
 
-#work-100px-finance {
-  max-height: 100px;
-  max-width:100px;
+nav {
+  background-color: white;
 }
 
-#work-100px-mba {
-  max-height: 100px;
-  max-width:100px;
-}
-
-#work-100px-ba {
-  max-height: 115px;
-  max-width:115px;
-}
-
-
-
-.margin {
-  margin-bottom: 10px;
-}
-.hang-glide-background {
-  background-color: #f7f9f7;
-}
+/*div {
+    border: 1px solid green;
+}*/
 
 
 .footer-div {
@@ -56,83 +45,29 @@
 }
 
 
-#splash-page {
-  text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items: center;
-  height: 700px;
-  background-image: url(assets/bike-backround-2.jpg);
-  background-size: 100%;
-  color: white;
-  }
-
-  #work {
-  height: 900px;
-  background-size: 100%;
-  margin-top:-60px;
-  }
-
-
-
-.miniPic {
-  margin-top: -12px;
-  margin-left: -10px;
-  border-radius: 100%;
-  width: 45px;
-  height: 45px;
-}
-
-
-
-.navbar-inverse {
-    background: rgba(0, 0, 0, 0.5);
-    border:none;
-}
-
-.navbar .nav > li > a {
-    float: none;
-    color: #ECECEC;
-}
-.navbar .nav > li > a:hover {
-    float: none;
-    color: white;
-}
-
 label {
   font-size: 1.25em;
 }
 
 
-.bgimage-inside {
-  padding-top:37.36%;
+.col-md-8 ul {
+    list-style-type: none;
+    font-size: 2.5em;
 }
 
 
-.bike-pics {
-  max-height: 170px; 
-  max-width: 300px;
-  border-radius: 2%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+span.glyphicon-link {
+    font-size: 2.5em;
+    margin-bottom: 50px;
 }
 
-.family-background {
- background-color: #F1F1F1;
-}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
 
-.family-background-image {
-   background-image: url("assets/map.png");
-   opacity: .9;  
-}
+  .col-md-8 li {
+    margin-bottom: 40px;
+  }
 
-
-nav .active {
-  font-weight: bold;
-  background: green;
-}
-
-nav {
-  background-color: white;
-}
