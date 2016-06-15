@@ -1,27 +1,4 @@
 
-.navbar-inverse {
-    background: rgba(0, 0, 0, 0.5);
-    border:none;
-}
-
-.navbar .nav > li > a {
-    float: none;
-    color: #ECECEC;
-}
-.navbar .nav > li > a:hover {
-    float: none;
-    color: white;
-}
-
-nav .active {
-  font-weight: bold;
-  background: green;
-}
-
-nav {
-  background-color: white;
-}
-
 /*div {
     border: 1px solid green;
 }*/
@@ -73,4 +50,5 @@ img {
   .col-md-8 li {
     margin-bottom: 40px;
   }
+
 
