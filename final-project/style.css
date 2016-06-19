@@ -1,0 +1,138 @@
+#work-100px-product {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-vc {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-biz-ops {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-finance {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-mba {
+  max-height: 100px;
+  max-width:100px;
+}
+
+#work-100px-ba {
+  max-height: 115px;
+  max-width:115px;
+}
+
+
+
+.margin {
+  margin-bottom: 10px;
+}
+.hang-glide-background {
+  background-color: #f7f9f7;
+}
+
+
+.footer-div {
+  background-color: gray;
+  color: white;
+  padding: 10px 0px 0px 0px;
+  font-size:1em;
+  }
+
+.footer-div li  {
+    display:inline;
+    font-size:1.25em;
+}
+
+.footer-div a  {
+    color:white;
+    font-size: 1.25em;
+}
+
+
+#splash-page {
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 700px;
+  background-image: url(assets/bike-backround-2.jpg);
+  background-size: 100%;
+  color: white;
+  }
+
+  #work {
+  height: 900px;
+  background-size: 100%;
+  margin-top:-60px;
+  }
+
+
+
+.miniPic {
+  margin-top: -12px;
+  margin-left: -10px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+    border:none;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    color: #ECECEC;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: white;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+
+.bgimage-inside {
+  padding-top:37.36%;
+}
+
+
+.bike-pics {
+  max-height: 170px; 
+  max-width: 300px;
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.family-background {
+ background-color: #F1F1F1;
+}
+
+.family-background-image {
+   background-image: url("assets/map.png");
+   opacity: .9;  
+}
+
+
+nav .active {
+  font-weight: bold;
+  background: green;
+}
+
+nav {
+  background-color: white;
+}
